@@ -1,0 +1,74 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.wraper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* section styles practice */
+.section-bg {
+    background-color: #FAFAFA;
+}
+.container {
+    width: 1171px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.text-block {
+    width: 771px;
+    margin: 0 auto;
+    background-color: yellow;
+    text-align: center;
+}
+.block-child {
+    width: 371px;
+    height: 374px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div-child {
+    width: 251px;
+    background-color: lightslategray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blue-box {
+    background-color: #325DFF;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block01 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    height: 771px;
+    align-content: space-between;
+}
